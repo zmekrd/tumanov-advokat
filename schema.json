@@ -86,23 +86,16 @@
       ],
       "employee": { "@id": "https://tumanov-advokat.ru/#person" },
       "founder": { "@id": "https://tumanov-advokat.ru/#person" },
+      "openingHours": "Mo-Su 10:00-24:00",
       "openingHoursSpecification": [
         {
           "@type": "OpeningHoursSpecification",
-          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-          "opens": "00:00",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+          "opens": "10:00",
           "closes": "23:59"
         }
       ],
-      "description": "Пн–Пт круглосуточно, Сб–Вс по договорённости. Приём: г. Краснодар, ул. Северная, 443, офис 311.",
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.4",
-        "bestRating": "5",
-        "worstRating": "1",
-        "ratingCount": "9",
-        "reviewCount": "6"
-      }
+      "description": "Ежедневно 10:00–24:00. Приём: г. Краснодар, ул. Северная, 443, офис 311."
     },
     {
       "@type": "WebSite",

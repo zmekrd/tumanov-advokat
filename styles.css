@@ -20,6 +20,7 @@
   --ok: #1f4a34;
   --danger: #8a2e2e;
   --wa: #1f5c3a;
+  --tg: #2a5570;
   --radius: 0;
   --shadow: none;
   --shadow-hover: none;
@@ -183,6 +184,9 @@ section:not(.hero):not(.dark):not(.band) .btn-primary:hover {
 .btn-wa { background: transparent; color: #f6f3ee; border-color: rgba(246,243,238,.35); }
 section:not(.hero):not(.dark):not(.band) .btn-wa { color: var(--wa); border-color: var(--wa); }
 .btn-wa:hover { background: var(--wa); color: #f6f3ee; border-color: var(--wa); }
+.btn-tg { background: transparent; color: #f6f3ee; border-color: rgba(246,243,238,.35); }
+section:not(.hero):not(.dark):not(.band) .btn-tg { color: var(--tg); border-color: var(--tg); }
+.btn-tg:hover { background: var(--tg); color: #f6f3ee; border-color: var(--tg); }
 .btn-light { background: transparent; color: #f6f3ee; border-color: rgba(246,243,238,.4); }
 section:not(.hero):not(.dark):not(.band) .btn-light { color: #111; border-color: var(--line-strong); }
 .btn-light:hover { border-color: var(--gold); color: var(--gold-2); }
