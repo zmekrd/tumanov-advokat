@@ -5,8 +5,18 @@
       "@type": "Person",
       "@id": "https://tumanov-advokat.ru/#person",
       "name": "Туманов Михаил Фёдорович",
+      "alternateName": [
+        "Туманов Михаил Федорович",
+        "Туманов М. Ф.",
+        "Туманов М.Ф.",
+        "адвокат Туманов",
+        "адвокат Туманов Краснодар"
+      ],
+      "givenName": "Михаил",
+      "familyName": "Туманов",
+      "additionalName": "Фёдорович",
       "jobTitle": "Адвокат",
-      "url": "https://tumanov-advokat.ru/",
+      "url": "https://tumanov-advokat.ru/advokat-tumanov/",
       "image": "https://tumanov-advokat.ru/img/portrait-hero.webp",
       "telephone": "+79933214885",
       "email": "tumanovzao@mail.ru",
@@ -24,28 +34,28 @@
         "@type": "LegalService",
         "name": "Филиал № 78 Краснодарской краевой коллегии адвокатов"
       },
-      "knowsAbout": [
-        "уголовное право",
-        "гражданское право",
-        "защита по уголовным делам",
-        "представительство в суде"
-      ],
       "memberOf": {
         "@type": "Organization",
         "name": "AdvoCall (Адвоколл)",
         "url": "https://advocall.me/"
-      }
+      },
+      "knowsAbout": [
+        "уголовное право",
+        "гражданское право",
+        "защита по уголовным делам",
+        "представительство в суде",
+        "уголовный адвокат Краснодар",
+        "адвокат по гражданским делам Краснодар"
+      ]
     },
     {
-      "@type": [
-        "LegalService",
-        "Attorney",
-        "LocalBusiness"
-      ],
+      "@type": ["LegalService", "Attorney", "LocalBusiness"],
       "@id": "https://tumanov-advokat.ru/#legal",
       "name": "Адвокат Туманов Михаил Фёдорович",
+      "alternateName": ["адвокат Туманов", "Туманов М. Ф.", "Туманов Михаил Федорович"],
       "url": "https://tumanov-advokat.ru/",
       "image": "https://tumanov-advokat.ru/img/og-cover.jpg",
+      "logo": "https://tumanov-advokat.ru/img/favicon-180.png",
       "telephone": "+79933214885",
       "email": "tumanovzao@mail.ru",
       "priceRange": "₽",
@@ -57,44 +67,32 @@
         "postalCode": "350038",
         "addressCountry": "RU"
       },
-      "areaServed": [
-        {
-          "@type": "City",
-          "name": "Краснодар"
-        },
-        {
-          "@type": "AdministrativeArea",
-          "name": "Краснодарский край"
-        }
-      ],
-      "employee": {
-        "@id": "https://tumanov-advokat.ru/#person"
-      },
-      "founder": {
-        "@id": "https://tumanov-advokat.ru/#person"
-      },
-      "openingHoursSpecification": [
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": [
-            "Monday",
-            "Tuesday",
-            "Wednesday",
-            "Thursday",
-            "Friday"
-          ],
-          "opens": "00:00",
-          "closes": "23:59"
-        }
-      ],
       "geo": {
         "@type": "GeoCoordinates",
         "latitude": "45.036687",
         "longitude": "39.000155"
       },
+      "hasMap": "https://yandex.ru/maps/org/advokat_tumanov_m_f_/73334328233/",
       "sameAs": [
         "https://yandex.ru/maps/org/advokat_tumanov_m_f_/73334328233/",
         "https://2gis.ru/krasnodar/firm/70000001097403559"
+      ],
+      "areaServed": [
+        { "@type": "City", "name": "Краснодар" },
+        { "@type": "AdministrativeArea", "name": "Краснодарский край" },
+        { "@type": "City", "name": "Москва" },
+        { "@type": "AdministrativeArea", "name": "Республика Крым" },
+        { "@type": "Country", "name": "Россия" }
+      ],
+      "employee": { "@id": "https://tumanov-advokat.ru/#person" },
+      "founder": { "@id": "https://tumanov-advokat.ru/#person" },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "00:00",
+          "closes": "23:59"
+        }
       ],
       "description": "Пн–Пт круглосуточно, Сб–Вс по договорённости. Приём: г. Краснодар, ул. Северная, 443, офис 311.",
       "aggregateRating": {
@@ -104,42 +102,33 @@
         "worstRating": "1",
         "ratingCount": "9",
         "reviewCount": "6"
-      },
-      "hasMap": "https://yandex.ru/maps/org/advokat_tumanov_m_f_/73334328233/"
+      }
     },
     {
       "@type": "WebSite",
       "@id": "https://tumanov-advokat.ru/#website",
       "url": "https://tumanov-advokat.ru/",
       "name": "Адвокат Туманов Михаил Фёдорович",
+      "alternateName": ["адвокат Туманов", "Туманов М. Ф.", "tumanov-advokat.ru"],
       "inLanguage": "ru-RU",
-      "publisher": {
-        "@id": "https://tumanov-advokat.ru/#person"
-      }
+      "publisher": { "@id": "https://tumanov-advokat.ru/#person" }
     },
     {
       "@type": "WebPage",
       "@id": "https://tumanov-advokat.ru/#webpage",
       "url": "https://tumanov-advokat.ru/",
-      "name": "Адвокат по уголовным делам в Краснодаре — Туманов Михаил Фёдорович",
-      "isPartOf": {
-        "@id": "https://tumanov-advokat.ru/#website"
-      },
-      "about": {
-        "@id": "https://tumanov-advokat.ru/#legal"
-      },
-      "inLanguage": "ru-RU"
+      "name": "Туманов Михаил Фёдорович — адвокат в Краснодаре и Москве",
+      "isPartOf": { "@id": "https://tumanov-advokat.ru/#website" },
+      "about": { "@id": "https://tumanov-advokat.ru/#legal" },
+      "primaryImageOfPage": "https://tumanov-advokat.ru/img/og-cover.jpg",
+      "inLanguage": "ru-RU",
+      "dateModified": "2026-11-21"
     },
     {
       "@type": "BreadcrumbList",
       "@id": "https://tumanov-advokat.ru/#breadcrumb",
       "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Главная",
-          "item": "https://tumanov-advokat.ru/"
-        }
+        { "@type": "ListItem", "position": 1, "name": "Главная", "item": "https://tumanov-advokat.ru/" }
       ]
     },
     {
@@ -183,7 +172,7 @@
           "name": "Вы работаете только в Краснодаре?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Приём ведётся в Краснодаре, ул. Северная, 443, офис 311. По делам в Краснодаре и Краснодарском крае работаю регулярно. Участие в другом регионе обсуждается отдельно и фиксируется в соглашении."
+            "text": "Очный приём ведётся в Краснодаре, ул. Северная, 443, офис 311. Работаю также в Москве, консультирую дистанционно по России и выезжаю в командировки, когда это нужно по делу. Отдельного офиса в Москве нет: место встречи или формат работы согласовываем заранее и фиксируем в соглашении."
           }
         },
         {

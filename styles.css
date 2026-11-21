@@ -559,10 +559,25 @@ footer.site strong { color: #f6f3ee; font-family: var(--font-serif); font-size: 
 }
 .mobile-cta .btn { flex: 1; min-height: 44px; padding: 0 .4rem; font-size: .68rem; }
 .page-hero { background: #050505; color: #f6f3ee; padding: 3.4rem 0 3rem; }
-.page-hero h1 { color: #f7f3eb; max-width: 16ch; }
+.page-hero h1 { color: #f7f3eb; max-width: 22ch; }
 .page-hero p { color: rgba(246,243,238,.7); }
-.prose { max-width: 46rem; padding-bottom: 2rem; }
+.page-hero .cta-row { margin-top: 1.5rem; }
+.crumbs {
+  display: flex; flex-wrap: wrap; gap: .25rem .55rem;
+  font-size: .82rem; letter-spacing: .04em;
+  margin: 0 0 1.15rem; color: rgba(246,243,238,.58);
+}
+.crumbs a { color: inherit; text-decoration: none; }
+.crumbs a:hover { color: var(--gold-2); }
+.crumbs [aria-current="page"] { color: #f6f3ee; }
+.prose { max-width: 46rem; padding: 0 0 3.2rem; }
 .prose h2 { margin-top: 1.8em; font-size: clamp(1.6rem, 3vw, 2.2rem); }
+.prose ul { margin: 0 0 1.2em; padding-left: 1.15em; }
+.prose li { margin: 0 0 .45em; }
+.card-more { margin: 1.05rem 0 0; }
+.card-more a { font-weight: 500; text-decoration: none; border-bottom: 1px solid rgba(154,117,64,.4); }
+.related { margin-top: 2.4rem; padding-bottom: 3.4rem; }
+.related h2 { font-size: clamp(1.6rem, 3vw, 2.2rem); margin-bottom: 1.2rem; }
 .placeholder { background: var(--accent-soft); color: var(--ink); padding: 0 .2em; }
 
 @media (max-width: 980px) {
