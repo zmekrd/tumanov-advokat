@@ -1,0 +1,200 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://tumanov-advokat.ru/#person",
+      "name": "Туманов Михаил Фёдорович",
+      "jobTitle": "Адвокат",
+      "url": "https://tumanov-advokat.ru/",
+      "image": "https://tumanov-advokat.ru/img/portrait-hero.webp",
+      "telephone": "+79933214885",
+      "email": "tumanovzao@mail.ru",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "ул. Северная, 443, офис 311",
+        "addressLocality": "Краснодар",
+        "addressRegion": "Краснодарский край",
+        "postalCode": "350038",
+        "addressCountry": "RU"
+      },
+      "identifier": "23/7096",
+      "hasCredential": "Регистрационный номер в реестре адвокатов Краснодарского края 23/7096",
+      "worksFor": {
+        "@type": "LegalService",
+        "name": "Филиал № 78 Краснодарской краевой коллегии адвокатов"
+      },
+      "knowsAbout": [
+        "уголовное право",
+        "гражданское право",
+        "защита по уголовным делам",
+        "представительство в суде"
+      ],
+      "memberOf": {
+        "@type": "Organization",
+        "name": "AdvoCall (Адвоколл)",
+        "url": "https://advocall.me/"
+      }
+    },
+    {
+      "@type": [
+        "LegalService",
+        "Attorney",
+        "LocalBusiness"
+      ],
+      "@id": "https://tumanov-advokat.ru/#legal",
+      "name": "Адвокат Туманов Михаил Фёдорович",
+      "url": "https://tumanov-advokat.ru/",
+      "image": "https://tumanov-advokat.ru/img/og-cover.jpg",
+      "telephone": "+79933214885",
+      "email": "tumanovzao@mail.ru",
+      "priceRange": "₽",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "ул. Северная, 443, офис 311",
+        "addressLocality": "Краснодар",
+        "addressRegion": "Краснодарский край",
+        "postalCode": "350038",
+        "addressCountry": "RU"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Краснодар"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Краснодарский край"
+        }
+      ],
+      "employee": {
+        "@id": "https://tumanov-advokat.ru/#person"
+      },
+      "founder": {
+        "@id": "https://tumanov-advokat.ru/#person"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "00:00",
+          "closes": "23:59"
+        }
+      ],
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "45.036687",
+        "longitude": "39.000155"
+      },
+      "sameAs": [
+        "https://yandex.ru/maps/org/advokat_tumanov_m_f_/73334328233/",
+        "https://2gis.ru/krasnodar/firm/70000001097403559"
+      ],
+      "description": "Пн–Пт круглосуточно, Сб–Вс по договорённости. Приём: г. Краснодар, ул. Северная, 443, офис 311.",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.4",
+        "bestRating": "5",
+        "worstRating": "1",
+        "ratingCount": "9",
+        "reviewCount": "6"
+      },
+      "hasMap": "https://yandex.ru/maps/org/advokat_tumanov_m_f_/73334328233/"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://tumanov-advokat.ru/#website",
+      "url": "https://tumanov-advokat.ru/",
+      "name": "Адвокат Туманов Михаил Фёдорович",
+      "inLanguage": "ru-RU",
+      "publisher": {
+        "@id": "https://tumanov-advokat.ru/#person"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://tumanov-advokat.ru/#webpage",
+      "url": "https://tumanov-advokat.ru/",
+      "name": "Адвокат по уголовным делам в Краснодаре — Туманов Михаил Фёдорович",
+      "isPartOf": {
+        "@id": "https://tumanov-advokat.ru/#website"
+      },
+      "about": {
+        "@id": "https://tumanov-advokat.ru/#legal"
+      },
+      "inLanguage": "ru-RU"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://tumanov-advokat.ru/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Главная",
+          "item": "https://tumanov-advokat.ru/"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://tumanov-advokat.ru/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Можно ли гарантировать исход дела?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Нет. Адвокат не вправе обещать определённый результат. На консультации я разъясняю возможные процессуальные варианты, риски и дальнейшие шаги. Решение по делу принимает суд или иной уполномоченный орган."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Сколько стоят услуги адвоката?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Стоимость зависит от объёма работы, стадии процесса и сложности обстоятельств. Ориентиры указаны на странице. Итоговая сумма фиксируется в соглашении об оказании юридической помощи."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Сохраняется ли в тайне то, что я расскажу адвокату?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Сведения, связанные с оказанием юридической помощи, охраняются адвокатской тайной (Федеральный закон «Об адвокатской деятельности и адвокатуре в Российской Федерации», Кодекс профессиональной этики адвоката). Исключения возможны только в случаях, прямо предусмотренных законом."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Когда имеет смысл связаться с адвокатом как можно скорее?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Имеет смысл не откладывать обращение, если вас или близкого человека задержали, пригласили на допрос, проводят обыск или вручили повестку, постановление или иск. Раннее разъяснение прав помогает избежать поспешных решений."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Вы работаете только в Краснодаре?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Приём ведётся в Краснодаре, ул. Северная, 443, офис 311. По делам в Краснодаре и Краснодарском крае работаю регулярно. Участие в другом регионе обсуждается отдельно и фиксируется в соглашении."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Можно ли получить консультацию онлайн?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Да. По предварительной договорённости консультацию можно провести по видео- или аудиосвязи. Документы удобно направить заранее. Онлайн-формат не заменяет выезда адвоката, если он необходим по делу."
+          }
+        }
+      ]
+    }
+  ]
+}
