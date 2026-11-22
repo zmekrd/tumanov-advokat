@@ -86,3 +86,25 @@
     }, { passive: true });
   }
 })();
+
+/* v5: лайтбокс для сертификата */
+(function () {
+  var links = document.querySelectorAll("a[data-lightbox]");
+  if (!links.length || typeof HTMLDialogElement !== "function") return;
+  var dlg = document.createElement("dialog");
+  dlg.className = "lightbox";
+  dlg.innerHTML = '<button type="button" aria-label="Закрыть">×</button><img alt="">';
+  document.body.appendChild(dlg);
+  var img = dlg.querySelector("img");
+  dlg.querySelector("button").addEventListener("click", function () { dlg.close(); });
+  dlg.addEventListener("click", function (e) { if (e.target === dlg) dlg.close(); });
+  links.forEach(function (a) {
+    a.addEventListener("click", function (e) {
+      e.preventDefault();
+      var inner = a.querySelector("img");
+      img.src = a.getAttribute("href");
+      img.alt = inner ? inner.alt : "";
+      dlg.showModal();
+    });
+  });
+})();
